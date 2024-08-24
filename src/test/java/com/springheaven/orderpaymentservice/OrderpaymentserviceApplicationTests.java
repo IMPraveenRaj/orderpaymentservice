@@ -8,6 +8,7 @@ class OrderpaymentserviceApplicationTests {
 
 	@Test
 	void contextLoads() {
+		System.out.println("checking the test");
 	}
 
 }
