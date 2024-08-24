@@ -18,16 +18,16 @@ import java.time.LocalDateTime;
 @Service
 public class EcommerceService {
 
-    @Autowired
+    @Autowired(required = false)
     private OrderRepository orderRepository;
 
-    @Autowired
+    @Autowired(required = false)
     private PaymentRepository paymentRepository;
 
-    @Autowired
+    @Autowired(required = false)
     private UserInteractionRepository userInteractionRepository;
 
-    @Autowired
+    @Autowired(required = false)
     private ProductCacheRepository productCacheRepository;
 
 

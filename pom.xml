@@ -82,6 +82,11 @@
     </dependencies>
 
 	<build>
+
+
+			<finalName>orderpayment-service</finalName>
+			<!-- Other build configurations -->
+
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
